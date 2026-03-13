@@ -1,0 +1,26 @@
+ .box{ 
+       height: 2CM;
+       width: 100px;
+       border: 2CM;
+       background-color: black;
+
+    }
+    .title
+
+    .title{
+    color: brown;
+    font-size: 4.5rem;
+    font: weight 80px;;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hero-section{
+    background-color:grey;
+    margin-top: 2cm;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+    text-align: justify;
+    align-items: center;
+    align-content: center;
+    text-size-adjust: 2rem;
+}
