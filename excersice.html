@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    var student1score =75;
+    var student2score = 88;
+    var student3score = 92;
+
+    var totalscore = student1score + student2score + student3score
+   console.log(totalscore);
+
+   var averagescore = totalscore / 3;
+   console.log(averagescore);
+
+   var results = [totalscore, averagescore];
+   console.log(results[0]);
+   console.log(results[1]); 
+
+   scores = [student1score, student2score, student3score];
+   console.log(scores[0]);
+   console.log(scores[1]);
+   console.log(scores[2]);
+
+   results ={
+    total : 'totalscore',
+    average : 'averagescore',
+    highest : '92',
+   }
+    window.alert(results.total);
+    window.alert(results.average);
+    window.alert(results.highest);
+   
+
+
+   //Bulldozer method question
+   var bulldozerprice = 5000;
+   var excavatorprice = 7000;
+   var craneprice = 9000;
+
+   var bulldozersold =2;
+   var excavatorsold =1;
+   var cranesold =3;
+    
+   var bulldozersales = bulldozerprice * bulldozersold;
+   var excavatorsales = excavatorprice * excavatorsold;
+   var cranesales = craneprice * cranesold;
+
+   console.log(bulldozersales);
+   console.log(excavatorsales);
+   console.log(cranesales);
+
+   var totalsales = bulldozersales + excavatorsales + cranesales;
+   console.log(totalsales);
+    
+   sales = [bulldozersales, excavatorsales, cranesales];
+   document.write(bulldozersales[0]);
+   console.log(excavatorsales[1]);
+   console.log(cranesales[2]);
+ 
+   shopreport = {
+    bulldozer :'bulldozer total sales',
+    excavator :'excavator total sales',
+    crane :'crane total sales',
+    grandtotal : 'totalsales',
+   }
+   
+    window.alert(shopreport.bulldozer);
+    window.alert(shopreport.excavator);
+    window.alert(shopreport.cranesales);
+    window.alert(shopreport.grandtotal);
+ 
+
+   </script> 
+</body>
+</html>
